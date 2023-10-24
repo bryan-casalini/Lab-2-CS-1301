@@ -1,0 +1,13 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+@keyframes color-change {
+  0% { background-color: red; }
+  25% { background-color: rgb(172, 4, 4); }
+  50% { background-color: rgb(114, 0, 0); }
+  75% { background-color: rgb(125, 1, 1); }
+  100% { background: rgb(174, 0, 0); }
+} 

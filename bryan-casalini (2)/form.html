@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>        
+    <head>
+        <title>Bryan Casalini</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+    <body>            
+        <div class="ss">
+            <h1>What sodas do you prefer?</h1>
+            <p class="p-1">Your favorite sodas reflect your personality. Answer the questions bellow to find out.</p>
+        </div>
+        <form action="results.html" method="get" >
+
+            <div class="initial">
+                <div>
+                    <label for="fname">What is your name?</label>
+                    <input class="fname-box" type="text" id="fname" name="fname" required >
+                </div>
+                <div>
+                    <label for="amount">On average, how many soda brands do you like?</label>
+                    <input class="amount-box" type="number" id="amount" name="amount">
+                </div>
+            </div>
+            <div>
+                <p>Which soda brands do you like?</p>
+                <input type="checkbox" id="coke" name="brand" value="coke">
+                <label for="coke">Coca-Cola</label>
+
+                <input type="checkbox" id="Pepsi" name="brand" value="Pepsi">                
+                <label for="Pepsi">Pepsi</label>
+
+                <input type="checkbox" id="Dr.Pepper" name="brand" value="Dr.Pepper">                
+                <label for="Dr.Pepper">Dr.Pepper</label>
+               
+                <input type="checkbox" id="Sprite" name="brand" value="Sprite">                
+                <label for="Sprite">Sprite</label>
+
+                <input type="checkbox" id="Mt.Dew" name="brand" value="Mt.Dew">                
+                <label for="Mt.Dew">Mt.Dew</label>
+
+                
+            </div>
+
+            <div>
+                <p>What flavor soda do you prefer?</p>
+                <input type="radio" id="Regular" name="flavor" value="Regular">
+                <label for="Regular">Regular</label>
+
+                <input type="radio" id="Cherry" name="flavor" value="Cherry">
+                <label for="Cherry">Cherry</label>
+
+                <input type="radio" id="Diet" name="flavor" value="Diet">
+                <label for="Diet">Diet</label>
+
+                <input type="radio" id="Zero" name="flavor" value="Zero" class="zero">
+                <label for="Zero">Zero</label>
+
+
+            </div>
+
+            <div>
+                <p>What flavor soda size do you prefer?</p>
+                <input type="radio" id="500ml" name="size" value="500ml">
+                <label for="500ml">500ml</label>
+
+                <input type="radio" id="Can" name="size" value="Can">
+                <label for="Can">Can(regular)</label>
+
+                <input type="radio" id="Can-mini" name="size" value="Can-mini">
+                <label for="Can-mini">Can-mini</label>
+
+                <input type="radio" id="2-Liter" name="size" value="2-Liter">
+                <label for="2-Liter">2-Liter</label>
+
+            </div>
+
+            <div>
+                <p></p>
+            </div>
+            <div>
+                <button class="sub" id="submit-btn" type="submit" value="Submit">Submit</button>
+            </div>
+
+        </form>
+    </body>
+</html>
